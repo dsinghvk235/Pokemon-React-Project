@@ -4,7 +4,7 @@ import { useState } from "react";
 import PokemonCards from "./PokemonCards";
 
 export default function Pokemon() {
-    const API = "https://pokeapi.co/api/v2/pokemon?limit=24";
+    const API = "https://pokeapi.co/api/v2/pokemon?limit=124";
     const [pokemon, setPokemon] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
